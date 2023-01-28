@@ -1,14 +1,16 @@
 {
-    "manifest_version": 2,
-    "name": "My Extension",
+    "manifest_version": 3,
+    "name": "chatgpt-keeper",
     "version": "1.0",
-    "description": "A basic Chrome extension.",
-    "browser_action": {
+    "description": "ChatGPT Keeper is a chrome extension that saves your ChatGPT conversations. Easily save and access your chats anytime with just a click.",
+    "action": {
         "default_icon": "icon.png",
         "default_popup": "popup.html"
     },
     "permissions": [
         "activeTab",
         "storage"
-    ]
+    ],
+    "content_security_policy": "script-src 'self'; object-src 'self'"
+
 }
