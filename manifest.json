@@ -7,6 +7,13 @@
         "default_icon": "icon.png",
         "default_popup": "popup.html"
     },
+    "content_scripts": [
+        {
+            "matches": ["https://chat.openai.com/chat/*"],
+            "css": ["style.css"],
+            "js": ["script.js"]
+        }
+    ],    
     "permissions": [
         "activeTab",
         "storage"
