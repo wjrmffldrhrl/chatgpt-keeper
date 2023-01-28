@@ -8,6 +8,8 @@ saveButton.addEventListener('click', saveData);
 
 // The saveData function
 function saveData() {
+    console.log('Click~!');
+
     // Get the current tab
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
         const activeTab = tabs[0];
