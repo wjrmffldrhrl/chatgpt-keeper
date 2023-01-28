@@ -7,11 +7,31 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 You need to have a web browser that supports JavaScript.
 
-### Installing
-Download the project files
-Open the index.html file with your web browser
-Select the html file you want to extract the div values from
-The extracted text will be displayed on the screen and also saved in a markdown file in the same directory as the html file
+### How to Use
+The extension app is still under review, so please use the method below.  
+
+1. Download the project zip file and unzip
+    - [Download link](https://github.com/wjrmffldrhrl/chatgpt-keeper/archive/refs/heads/master.zip)
+2. Access [chrome extensions](chrome://extensions/)  
+![1.png](./images/1.png)  
+
+3. Trun on developer mode  
+![2.png](./images/2.png)  
+
+4. Load unpacked project directory  
+![3.png](./images/3.png)  
+
+5. Check chatgpt-keeper extension  
+![4.png](./images/4.png) 
+
+6. Talk to chatgpt and click the `Save Chat` button  
+![5.png](./images/5.png)  
+
+7. Voila!  
+![6.png](./images/6.png) 
+
+
+
 ## Built With
 JavaScript - The programming language used
 ## License
