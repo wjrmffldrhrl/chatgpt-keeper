@@ -676,3 +676,15 @@ git clone https://github.com/username/project-name.gitmarkdownCopy code2. Open t
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 
+### You
+Do you remember the description you wrote? Please shorten it to 100 characters or less
+
+### chatGPT
+"A vanilla JS project that extracts text from a div and saves it in markdown format. Includes CSP compliance for Chrome App use."
+
+### You
+Please write a description of less than 100 characters, which means that it is a chrome extension that saves chatGPT and conversations as markdown.
+
+### chatGPT
+"Chrome extension to save ChatGPT conversations as markdown"
+
