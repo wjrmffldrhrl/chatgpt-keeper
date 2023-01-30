@@ -13,8 +13,5 @@
             "css": ["style.css"],
             "js": ["script.js"]
         }
-    ],    
-    "permissions": [
-        "downloads"
     ]
 }
