@@ -1,5 +1,8 @@
 # Project Name
-This project is a script that extracts specific div values from an html file, and saves the text in markdown format.
+This project is a script that extracts specific div values from an html file, and saves the text in markdown format.  
+
+You can start from [chrome web store](https://chrome.google.com/webstore/detail/chatgpt-keeper/mgbiokepgpjnpadhbcggcnnlnpkajhdl?hl=en-US)
+
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine.
