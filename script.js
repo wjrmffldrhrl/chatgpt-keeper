@@ -20,6 +20,7 @@ document.getElementById("chatGPT-save-button").addEventListener("click", saveCha
 function saveChat() {
     console.log("Chat saved!");
     // Add code here to save the chat
+    const title = document.querySelector('title').innerText;
 
     var messageBoxes = document.querySelectorAll('.flex.flex-grow.flex-col.gap-3');
 
@@ -46,7 +47,7 @@ function saveChat() {
     a.href = downloadUrl;
 
     // Set the download attribute of the <a> tag to the desired file name
-    a.download = "chat.md";
+    a.download = `${title}.md`;
 
     // Simulate a click on the <a> tag to initiate the download
     a.click();
