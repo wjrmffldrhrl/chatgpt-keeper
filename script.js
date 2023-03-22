@@ -2,18 +2,18 @@
 // Create the button and add an id
 var button = document.createElement("button");
 button.innerHTML = "Save Chat";
-button.setAttribute("id", "chatGPT-save-button");
+button.setAttribute("id", "keeper-save-button");
 
 // Create a div to hold the button
 var buttonDiv = document.createElement("div");
-buttonDiv.setAttribute("id", "chatGPT-button");
+buttonDiv.setAttribute("id", "keeper-button-container");
 buttonDiv.appendChild(button);
 
 // Add the button to the top right corner of the screen
 document.body.appendChild(buttonDiv);
 
 // Add event listener for button click
-document.getElementById("chatGPT-save-button").addEventListener("click", saveChat);
+document.getElementById("keeper-save-button").addEventListener("click", saveChat);
 
 
 // Function to handle button click

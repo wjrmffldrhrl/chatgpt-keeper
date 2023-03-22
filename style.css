@@ -1,20 +1,31 @@
 /* Add the button to the top right corner of the screen */
-#chatGPT-button {
+#keeper-button-container {
     position: fixed;
     top: 20px;
     right: 20px;
-  }
-  
-  /* Style the button */
-  #chatGPT-button button {
-    background-color: #4CAF50; /* Green */
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  
+}
+
+#keeper-save-button {
+  background-color: #10a37f;
+  color: white;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  min-width: max-content;
+}
+
+#keeper-save-button:hover {
+  transition-duration: 80ms;
+  background-color: #32c59f;
+}
+
+#keeper-save-button:active {
+  transition-duration: 80ms;
+  background-color: #00926e;
+}
