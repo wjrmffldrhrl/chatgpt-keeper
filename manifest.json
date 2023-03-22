@@ -11,7 +11,7 @@
         {
             "matches": ["https://chat.openai.com/chat/*"],
             "css": ["style.css"],
-            "js": ["script.js"]
+            "js": ["lib/showdown.js", "script.js"]
         }
     ]
 }
