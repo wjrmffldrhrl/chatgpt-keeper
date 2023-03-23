@@ -1,11 +1,11 @@
 /* Add the button to the top right corner of the screen */
-#keeper-button-container {
+#chatgpt-keeper-button-container {
     position: fixed;
     top: 20px;
     right: 20px;
 }
 
-#keeper-save-button {
+#chatgpt-keeper-save-chat-button {
   background-color: #10a37f;
   color: white;
   padding: 8px 24px;
@@ -20,12 +20,12 @@
   min-width: max-content;
 }
 
-#keeper-save-button:hover {
+#chatgpt-keeper-save-chat-button:hover {
   transition-duration: 80ms;
   background-color: #32c59f;
 }
 
-#keeper-save-button:active {
+#chatgpt-keeper-save-chat-button:active {
   transition-duration: 80ms;
   background-color: #00926e;
 }

@@ -2,19 +2,19 @@
 const button = document.createElement("button");
 
 button.innerHTML = "Save Chat";
-button.setAttribute("id", "keeper-save-button");
+button.setAttribute("id", "chatgpt-keeper-save-chat-button");
 
 // Create a div to hold the button
 const buttonDiv = document.createElement("div");
 
-buttonDiv.setAttribute("id", "keeper-button-container");
+buttonDiv.setAttribute("id", "chatgpt-keeper-button-container");
 buttonDiv.appendChild(button);
 
 // Add the button to the top right corner of the screen
 document.body.appendChild(buttonDiv);
 
 // Add event listener for button click
-document.getElementById("keeper-save-button").addEventListener("click", saveChat);
+document.getElementById("chatgpt-keeper-save-chat-button").addEventListener("click", saveChat);
 
 // Function to handle button click
 function saveChat() {
